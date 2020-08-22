@@ -20,7 +20,7 @@ even though they are working on different features.
 When a client asks for a new feature, we add a new module,
 without having to change existing modules.
 
-Is your solution able to do that?
+Is your solution able to do that
 
 ## Stages
 
