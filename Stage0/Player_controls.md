@@ -32,4 +32,4 @@ use **"K" to move UP** and **"M" to move DOWN**._
 _(3) Points will score when your opponent misses the ball.
 First on who gets 10 points will win the game._
 
-#### PRESS SPACEBAR TO PLAY !!
+#### PRESS SPACEBAR TO PLAY
