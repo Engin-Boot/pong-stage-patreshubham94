@@ -6,7 +6,7 @@
 
 ## Acceptance Criteria
 
-### Scenario: Initial modes of game
+### Scenario: Mode 1 of game
 
   Given: On start display 1 Player or 2 player and Demo mode is present.
 
@@ -14,7 +14,7 @@
 
   Then: Enter to single player mode of game.
 
-### Scenario: Initial modes of game
+### Scenario: Mode 2 of game
 
   Given: On start display 1 Player or 2 player and Demo mode is present.
 
@@ -22,7 +22,7 @@
 
   Then: Enter to 2 player mode of game.
   
-### Scenario: Initial modes of game.
+### Scenario: Initial modes of game
 
   Given: On start display 1 Player or 2 player and Demo mode is present.
 
