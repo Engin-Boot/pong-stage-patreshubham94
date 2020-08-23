@@ -11,6 +11,8 @@
 - Then: Shows the following instruction.
 
 (1) Control the paddle on the right side of screen using keyboard.
+
 (2) Use "K" to move UP and "M" to move down.
+
 (3) Points will score when your opponent misses the ball.
 First on who gets 10 points will win the game.
