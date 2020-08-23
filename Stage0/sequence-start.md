@@ -52,12 +52,12 @@ Then: ball will bounce back towards the computer's paddle.
 
 When: Player 1 misses the ball.
 
-Then: opponent (computer) will get 1 point. 
+Then: opponent (computer) will get 1 point.
 And from next turn, ball moves towards left side first.
 
 When: computer misses ball.
 
-Then: player 1 will get 1 point. 
+Then: player 1 will get 1 point.
 And from next turn, ball moves towards right side first.
 
 When: ball touches to computer's paddle.
