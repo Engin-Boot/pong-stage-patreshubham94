@@ -44,7 +44,7 @@ And starts the game in expert mode.
 
 ### Scenario: Single player game
 
-Given: At start from middle ball moves towrds right. (Player 1).
+Given: At start from middle ball moves towards right. (Player 1).
 
 When: ball touches to player 1's paddle.
 
