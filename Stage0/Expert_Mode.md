@@ -2,7 +2,7 @@
 
 In this mode of game, user can change the default settings.
 
-## Features 
+## Features
 
 - Following features user can change.
 
@@ -29,7 +29,7 @@ When: user select to change theme.
 Then: Display options for theme change.
 And after selection of theme, set that theme. Save !
 
-### Scenario: Change ball size.
+### Scenario: Change ball size
 
 Given: in expert mode user can change size of ball.
 
@@ -37,7 +37,7 @@ When: user select to change ball size.
 
 Then: user can set ball size by entering number.
 
-### Scenario: Change paddle size.
+### Scenario: Change paddle size
 
 Given: in expert mode user can change size of paddle.
 
@@ -45,7 +45,7 @@ When: user select to change paddle size.
 
 Then: user can set paddle size by entering number.
 
-### Scenario: Change ball speed.
+### Scenario: Change ball speed
 
 Given: in expert mode user can change ball speed.
 
@@ -53,7 +53,7 @@ When: user select to change ball speed.
 
 Then: user can set ball speed by entering number.
 
-### Scenario: Change paddle speed.
+### Scenario: Change paddle speed
 
 Given: in expert mode user can change paddle speed.
 
