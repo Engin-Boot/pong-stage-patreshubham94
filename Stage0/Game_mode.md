@@ -2,7 +2,7 @@
 
 ## Feature
 
--It provide modes of the game. Beginner mode or Expert mode.
+- It provide modes of the game. Beginner mode or Expert mode.
 
 ## Acceptance Criteria
 
