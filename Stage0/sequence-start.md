@@ -21,7 +21,7 @@ Starts the game.
 
 When: expert mode selects.
 
-Then: display feature change pannel.
+Then: display feature change panel.
 And change the features. And save the updated features.
 And starts the game in expert mode.
 
