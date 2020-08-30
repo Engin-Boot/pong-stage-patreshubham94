@@ -1,0 +1,95 @@
+classDiagram
+	Launch_Game <|-- Game_Menu
+  Launch_Game : +ClickgameIcon
+  Launch_Game : +LaunchGame()
+
+	Game_Menu <|-- Single_Player
+	Game_Menu <|-- Multi_Player
+  
+
+	Game_Menu : +start
+  Game_Menu : +Player_Selection
+  Game_Menu : +Demo_Mode
+  Game_Menu : +exit
+  Game_Menu : +Resume
+  Game_Menu : +Display_Menu()
+  Game_Menu : +Select_Player()
+  Game_Menu : +Demo()
+
+  Single_Player..> Game_Mode
+  Multi_Player..> Game_Mode
+  Game_Mode *-- Expert_Mode
+  Expert_Mode <|-- Game_Logic
+  Game_Mode <|-- Game_Logic
+   	
+
+	class Single_Player{
+		+String name
+    +String email
+    +int id
+    +String 1_Playerinfo
+		+getName()
+    +getEmail()
+		+getID()
+    +displayControls()
+	}
+	class Multi_Player{
+		+String name
+    +String email
+    +int id
+    +String Multi_player_controls
+		+getName()
+    +getEmail()
+		+getID()
+    +addPlayers()
+    +displayControls()
+	}
+	class Game_Mode{
+		+beginnerMode
+    +ExpertMode
+  
+	}
+  class Expert_Mode{
+    +String theme
+    +int Ball_Size
+    +int paddle_size
+    +int ball_speed
+    +int paddle_speed
+    +String color
+    +enterTheme()
+    +enterBsize()
+    +enterBspeed()
+    +enterPsize()
+    +enterPspeed()
+    +enterColor()
+  }
+	class Game_Logic{
+    +chackPlayerStatus()
+    +initializeGame()
+    +getScore()
+    +CheckSpeed()
+     +exit()
+
+  }
+  Game_Logic <|-- Expet_Session
+  Expert_Mode <|-- Expet_Session
+  class Expet_Session{
+    +checkBallSpeed()
+    +CheckPaddleSpeed()
+    +checkBallSize()
+    +checkPaddleSize()
+
+  }
+  Game_Menu -- Game_Logic
+  Game_Logic ..> Score
+  class Score{
+  +getScoreAll()
+  +compareScore()
+  +winner()
+  }
+  Score <|-- Winner
+  Winner--Game_Menu
+  class Winner{
+    +decleareWinner()
+    +exit()
+  }
