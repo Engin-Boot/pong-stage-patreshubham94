@@ -1,4 +1,4 @@
-# SubMenus
+# SubMenu
 
 ## Feature
 
