@@ -16,7 +16,7 @@
 
   Then: Display them Menu section which contains properties that player can change.
  
- ### Scenario: Change paddle properties
+### Scenario: Change paddle properties
 
 Given: Player selected menu section.
 
