@@ -15,7 +15,7 @@
   When: Player opt for change game properties.
 
   Then: Display them Menu section which contains properties that player can change.
- 
+  
 ### Scenario: Change paddle properties
 
 Given: Player selected menu section.
