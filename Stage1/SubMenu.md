@@ -12,5 +12,6 @@
 
   When: Player opt for paddle change properties.
 
-  Then: Dispaly them properties of paddle where player can change hardness / resistance power of paddle.
+  Then: Dispaly them properties of paddle.
+  Where player can change hardness / resistance power of paddle.
   If less resistance, paddle power is more and vica versa.
