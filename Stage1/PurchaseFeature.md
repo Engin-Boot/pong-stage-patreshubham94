@@ -2,7 +2,9 @@
 
 ## Feature
 
-- Player can also purchase the game features or coins and coupons.
+- Player can also purchase the game features using coins and coupons.
+-For that they need to earn coins by wining game.
+-Or player can buy coins.
 
 ## Acceptance Criteria
 
@@ -12,4 +14,4 @@
 
   When: player wants to buy extra game coins or coupons.
 
-  Then: display them purchasing game coin menu and coupon menu.
+  Then: display them purchasing game coin options.
