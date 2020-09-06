@@ -13,4 +13,4 @@
 
   When: Player opt for change game properties.
 
-  Then: Dispaly them Menu sction which contains properties player can change.
+  Then: Display them Menu sction which contains properties that player can change.
