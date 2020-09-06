@@ -20,6 +20,6 @@
 
   Given player has money to buy coins or coupons.
   
-  When player buyies coins or coupons.
+  When player buyes coins or coupons.
   
   Then credit the entered coins or coupons into player's account.
