@@ -1,4 +1,4 @@
-# Menus
+# Menu
 
 ## Feature
 
@@ -13,4 +13,4 @@
 
   When: Player opt for change game properties.
 
-  Then: Display them Menu sction which contains properties that player can change.
+  Then: Display them Menu section which contains properties that player can change.
