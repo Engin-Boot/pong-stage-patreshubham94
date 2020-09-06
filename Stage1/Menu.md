@@ -18,10 +18,10 @@
  
  ### Scenario: Change paddle properties
 
-  Given: Player selected menu section.
+Given: Player selected menu section.
 
-  When: Player opt for paddle change properties.
+When: Player opt for paddle change properties.
 
-  Then: Display them properties of paddle.
-  Where player can change hardness / resistance power of paddle.
-  If less resistance, paddle power is more and vice versa.
+Then: Display them properties of paddle.
+Where player can change hardness / resistance power of paddle.
+If less resistance, paddle power is more and vice versa.
