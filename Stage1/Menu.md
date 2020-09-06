@@ -2,7 +2,7 @@
 
 ## Feature
 
-- This section displays menu for change feature.
+- This section display menu for feature change.
 
 ## Acceptance Criteria
 
